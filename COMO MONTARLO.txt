@@ -1,0 +1,29 @@
+LINEA 263 - Reemplazar AQUI TU USER SIN @ por tu user . Ejemplo Yama_Tsukami
+
+LINEA 266 - Reemplazar AQUI TU USER SIN @ por tu user . Ejemplo Yama_Tsukami
+
+LINA 283 - Reemplazar AQUI_TU_USER por tu user sin @
+
+LINEA 484 - Tu @ ejemplo @Yama_Tsukami
+
+
+##########################################
+LINEA 210 - Reemplazar ID DEL CANAL DE LOG por el id de un canal . Ejemplo  bot.sendMessage(-1006754738,finishInfo+'\n'+filesInfo,parse_mode='html')
+
+LINEA 256 - PONER EL MISMO ID DEL CANAL 
+
+LINEA - 286 PONER EL MISMO ID DEL CANAL
+
+OJO - PONER EL BOT DE ADMIN EN ESE CANAL 
+
+
+###########################################
+LINEA 581 - 695 - Ahi estan las configuraciones predeterminadas , rellebarlas a gusto 
+
+
+##########################################
+LINEA 758 - pon el token
+
+##########################################
+En el archivo database.db poner tu nombre donde dice nombre
+

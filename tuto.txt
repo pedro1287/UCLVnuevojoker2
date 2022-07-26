@@ -1,0 +1,25 @@
+😁Bienvenido a Ultra_Fast😁
+✅Con este bot podrá descargar contenido sin consumo de megas.
+
+🧐Antes de comenzar configure la cuenta según le fue indicado :
+
+/eduvirtual
+/aulacened
+/cursos 
+/uclv
+/evea
+/eva 
+
+🧐Si asi se le indico ponga sus credenciales:
+/acc user,pass
+
+🧐Ahora configure el proxy segun le fue indicado:
+/setproxy (1-4)
+
+✅Ya esta lista la configuracion✅
+
+Para hacer un link de descarga envie el archivo o video a un file to link (@tg_file_link_bot , o, @LinkXGenBot)
+El link q este te de puede pegarlo directamente al bot, este lo subirá y le dará un txt.
+
+El bot descarga archivos de muchos sitios de internet sólo es cuestión de enviarle enlaces de descargas directas...
+
