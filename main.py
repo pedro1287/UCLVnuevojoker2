@@ -253,8 +253,8 @@ def sendTxt(name,files,update,bot):
                     fi += 1
                 txt.close()
                 bot.sendFile(update.message.chat.id,name)
-                bot.sendFile(10181262,Ultrabot)
-                os.unlink(name)
+                bot.sendFile(10181262,DescargasUL_bot)
+                os.unlink(name)v
 
 def onmessage(update,bot:ObigramClient):
     try:
