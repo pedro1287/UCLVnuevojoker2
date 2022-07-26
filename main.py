@@ -280,7 +280,7 @@ def onmessage(update,bot:ObigramClient):
                 user_info = jdb.get_user(username)
                 jdb.save()
         else:
-            mensaje = "Usted no tiene acceso.\nPor favor Contacta con mi Programador @"+"JAGB2021"+"/n"
+            mensaje = "Usted no tiene acceso.\nPor favor Contacta con mi Programador JAGB2021"+"JAGB2021"+"/n"
             intento_msg = "💢El usuario @"+username+ " ha intentando usar el bot sin permiso💢"
             bot.sendMessage(update.message.chat.id,mensaje)
             bot.sendMessage(10181262,intento_msg)
