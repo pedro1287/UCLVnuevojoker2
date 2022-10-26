@@ -260,10 +260,10 @@ def onmessage(update,bot:ObigramClient):
     try:
         thread = bot.this_thread
         username = update.message.sender.username
-        tl_admin_user = os.environ.get('Penelopeplp')
+        tl_admin_user = os.environ.get('Jeraldine2004')
 
         #Descomentar debajo solo si se ba a poner el usuario admin de telegram manual
-        tl_admin_user = 'Penelopeplp'
+        tl_admin_user = 'Jeraldine2004'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -280,7 +280,7 @@ def onmessage(update,bot:ObigramClient):
                 user_info = jdb.get_user(username)
                 jdb.save()
         else:
-            mensaje = "Usted no tiene acceso.\nPor favor Contacta con mi Programador @"+"Penelopeplp"+"/n"
+            mensaje = "Usted no tiene acceso.\nPor favor Contacta con mi Programador @"+"Jeraldine2004"+"/n"
             intento_msg = "💢El usuario @"+username+ " ha intentando usar el bot sin permiso💢"
             bot.sendMessage(update.message.chat.id,mensaje)
             bot.sendMessage(-1909230927,intento_msg)
@@ -481,7 +481,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = ' Bienvenido a Ultra_Fast \n'
-            start_msg+= ' Penelopeplp \n'
+            start_msg+= ' Jeraldine2004 \n'
             start_msg+= ' Antes de comenzar vea el /tuto \n'
             start_msg+= " Para ver las subidas disponibles pulse /config \n\n"
             bot.editMessageText(message,start_msg)
@@ -755,7 +755,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #decomentar abajo y modificar solo si se va a poner el token del bot manual
-    bot_token = '5788740996:AAHhcF5BdWXbEvOoBgJ5K0GzbWvc4XGAjnA'
+    bot_token = '5458664388:AAECp4N0kiUKaevCL4cKqod1eGi2fM_NWh4'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
